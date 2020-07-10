@@ -1,7 +1,9 @@
 # algorithm-codewars
-algorithms from code-wars for practice
+>Algorithms from code-wars for practice
 
-code wars have algorithms for practive
+code wars is a website that has algorithms for practice. <br>
+The level of algorithms goes from 8kyu to 1kyu which 8kyu is the easier and 1kyu the harder levels.
+<br>
 (code wars)[https://www.codewars.com/]
 
 This repo has some of the most usefull algorithms with solutions.
