@@ -25,7 +25,9 @@ function solve(s){
 
 
 console.log(solve("abc"));
+// expect to get true
 console.log(solve("ogh"));
+// expect to get false
 
 // other solution
 // function solve(s) {
