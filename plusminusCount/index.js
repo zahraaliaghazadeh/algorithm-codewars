@@ -1,3 +1,4 @@
+// 7kyu
 // Count how often sign changes in array.
 
 // result
