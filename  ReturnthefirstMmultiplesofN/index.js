@@ -14,6 +14,23 @@ function multiples(m, n){
     }
     return arr
   }
-  
+
   console.log(multiples(3,5))
 //   [5, 10, 15]
+
+// solution
+// function multiples(m, n){
+//     var arr=[];
+//     for (var i=1; i<=m; ++i)
+//       arr.push(n*i);
+//     return arr;
+//   }
+
+// solution
+// function multiples(m, n){
+//     return Array.from(Array(m), (_v, i) => (i + 1) * n);
+//   }
+
+
+// solution
+// const multiples = (m, n) => Array.from({ length: m }).map((_, i) => ++i * n);
