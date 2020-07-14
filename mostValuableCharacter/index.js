@@ -46,7 +46,7 @@ function solve(st) {
       st.replace(st[i], "");
     }
     
-    return biggestDiff[0];
+    return biggestDiff[0]; 
   } 
   
   return st;
