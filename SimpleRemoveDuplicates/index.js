@@ -17,10 +17,8 @@ function solve(arr){
     return uniqueArr.reverse();
   }
 
-  console.log(solve([3,4,4,3,6,3]))
-//   [4,6,3]
-  console.log(solve([1,2,1,2,1,2,3]))
-//   [ 1, 2, 3 ]
+  console.log(solve([3,4,4,3,6,3]))    //   [4,6,3]
+  console.log(solve([1,2,1,2,1,2,3]))  //   [ 1, 2, 3 ]
 
 
 // other solution

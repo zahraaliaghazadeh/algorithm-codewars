@@ -16,8 +16,7 @@ function multiples(m, n){
     return arr
   }
 
-  console.log(multiples(3,5))
-//   [5, 10, 15]
+  console.log(multiples(3,5)) // must return [5, 10, 15]
 
 // solution
 // function multiples(m, n){

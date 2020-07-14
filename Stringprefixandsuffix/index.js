@@ -18,22 +18,14 @@ function solve(s){
   return length;
 }
 
-console.log(solve("abcd"))
-// 0
-console.log(solve("abcda"))
-// 1
-console.log(solve("abcdabc"))
-// 3
-console.log(solve("abcabc"))
-// 3
-console.log(solve("abcabca"))
-// 1
-console.log(solve("aaaa"))
-// 2
-console.log(solve("aa"))
-// 1
-console.log(solve("a"))
-// 0
+console.log(solve("abcd"))     // 0
+console.log(solve("abcda"))    // 1
+console.log(solve("abcdabc"))  // 3
+console.log(solve("abcabc"))   // 3
+console.log(solve("abcabca"))  // 1
+console.log(solve("aaaa"))     // 2
+console.log(solve("aa"))       // 1
+console.log(solve("a"))        // 0
 
 // tests: 
 // describe("Basic tests", function(){

@@ -17,8 +17,7 @@ function catchSignChange(arr){
     return count
 }
 
-console.log(catchSignChange([1, -3, -4, 0, 5])) 
-// expect to get 2
+console.log(catchSignChange([1, -3, -4, 0, 5])) // expect to get 2
 
 
 // solution 2
