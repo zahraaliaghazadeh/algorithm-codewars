@@ -9,18 +9,22 @@
 
 
 function halvingSum(n) {
-    let sum = 0;
-  for (i=0;i<n;i++){
-    if ( ( n/ ( 2**(i+2) ) ) >1 ){
-      sum += ( n/ ( 2**(i+2)  )
-              
+  if (n === 0 || n === 1) {
+    return n
+  }
+  
+  let sum = n;
+  
+  for (let i = 2; true ; i *= 2) {
+    sum += Math.floor(n / i);
+    
+    if (Math.floor(n / i) === 1) {
+      break;
     }
   }
-  return sum
+  
+  return sum;
 }
 
-
-   console.log(halvingSum(25)); // must return 47
-   console.log(halvingSum(127)); // must return 247
-  
-  
+console.log(halvingSum(25)); // must return 47
+console.log(halvingSum(127)); // must return 247
