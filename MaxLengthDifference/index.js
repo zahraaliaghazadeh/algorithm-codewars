@@ -16,3 +16,9 @@
 // Bash note:
 // input : 2 strings with substrings separated by ,
 // output: number as a string
+
+
+
+var s1 = ["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"];
+var s2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"];
+console.log(mxdiflg(s1, s2)); //13
