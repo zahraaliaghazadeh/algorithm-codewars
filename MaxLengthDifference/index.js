@@ -17,8 +17,32 @@
 // input : 2 strings with substrings separated by ,
 // output: number as a string
 
+function mxdiflg(a1, a2) {
+  if (a1.length === 0 || a2.length === 0) {
+    return -1;
+  }
+  
+  const sortedA1 = a1.sort((a, b) => b.length - a.length);
+  const sortedA2 = a2.sort((a, b) => b.length - a.length);
+  
+  return Math.max(Math.abs(sortedA1[a1.length - 1].length - sortedA2[0].length), Math.abs(sortedA2[a2.length - 1].length - sortedA1[0].length))
+}
 
+const s1 = ["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"];
+const s2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"];
+console.log(mxdiflg(s1, s2)); // returns 13
 
-var s1 = ["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"];
-var s2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"];
-console.log(mxdiflg(s1, s2)); //13
+// ================ DIFFERENT SOLUTION =================
+// function mxdiflg(a1, a2) {
+//   if (a1.length === 0 || a2.length === 0) {
+//     return -1;
+//   }
+
+//   let a1Max = Math.max(...(a1.map(el => el.length)));
+//   let a1Min = Math.min(...(a1.map(el => el.length)));
+  
+//   let a2Max = Math.max(...(a2.map(el => el.length)));
+//   let a2Min = Math.min(...(a2.map(el => el.length)));
+  
+//   return Math.max(Math.abs(a1Max - a2Min), Math.abs(a2Max - a1Min));
+// }
