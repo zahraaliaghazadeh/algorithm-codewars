@@ -6,15 +6,10 @@ The level of algorithms goes from 8kyu to 1kyu which 8kyu is the easier and 1kyu
 <br>
 [code wars](https://www.codewars.com/)
 
-This repo has some of the most usefull algorithms with solutions.
-
-## Vocabulary
-Kata: is an algorithm you have to solve in any programming language you desire
-
-Kyu: is a digit that determines kata difficulty level as well as the user rank on the platform
+This repo has some of the most useful algorithms with solutions.
 
 
-### Learning Resources
+## Learning Resources
 
 - Regular Expressions / RegEx
 
@@ -62,6 +57,9 @@ Kyu: is a digit that determines kata difficulty level as well as the user rank o
 - [CodeFights](https://codefights.com)
 - [HackerRank](https://www.hackerrank.com)
 
+
+## Credits
+Credit to [lndgalante](https://github.com/lndgalante), [juanscolari](https://github.com/juanscolari) and [fossabot](https://github.com/fossabot) for all the learning resources, check out their [repo](https://github.com/lndgalante/codewars-katas) for more things codewars!
 
 ## Contributors
 
