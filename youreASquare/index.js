@@ -32,3 +32,17 @@ console.log(isSquare( 3)) // returns false
 console.log(isSquare( 4)) // returns true
 console.log(isSquare(25)) // returns true
 console.log(isSquare(26)) // returns false
+
+// =====other solution=======
+// var isSquare = function(n){
+  
+//   if (Math.sqrt(n) !== Math.floor(Math.sqrt(n))) return false;
+//   else return true
+  
+// }
+
+
+// =====other solution=======
+// function isSquare(n) {
+//   return Math.sqrt(n) % 1 === 0;
+// }
