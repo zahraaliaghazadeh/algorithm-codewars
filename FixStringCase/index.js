@@ -10,7 +10,6 @@
 // solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
 
 function solve(s){
-    //..
   var upper = 0
   var lower = 0
   for ( let i=0; i<s.length ; i++){
@@ -31,3 +30,20 @@ console.log(solve("code"))  // "code"
 console.log(solve("CODe"))  // "CODE"
 console.log(solve("COde"))  // "code"
 console.log(solve("Code"))  // "code"
+
+/*============== DIFFERENT SOLUTION ================
+function solve(s){
+  // if the string is all upper or all lower return the string
+  if (s === s.toLowerCase() || s === s.toUpperCase()) {
+    return s;
+  }
+  
+  // Uppercase characters > lowercase then change lowercase to upper
+  if ((s.match(/[A-Z]/g)).length > (s.match(/[a-z]/g)).length) {
+    return s.replace(/[a-z]/g, x => x.toUpperCase())
+  }
+  
+  // change all upper case to lower
+  return s.replace(/[A-Z]/g, x => x.toLowerCase())
+}
+*/
