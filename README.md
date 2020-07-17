@@ -45,6 +45,7 @@ This repo has some of the most useful algorithms with solutions.
 - [Algorithms solved in many languages](https://github.com/marcosfede/algorithms)
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 - [A JavaScript optimization handbook](https://mythbusters.js.org)
+- [Data Structures and Algorithms with JavaScript ,book](https://github.com/ontiyonke/book-1/blob/master/%5BJAVASCRIPT%5D%5BData%20Structures%20and%20Algorithms%20with%20JavaScript%5D.pdf)
 - [Cracking the Coding Interview, 6th Edition](https://github.com/alxerg/Books-1/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)
 
 ### Similar Plattforms
