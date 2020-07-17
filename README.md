@@ -8,7 +8,10 @@ The level of algorithms goes from 8kyu to 1kyu which 8kyu is the easier and 1kyu
 
 This repo has some of the most usefull algorithms with solutions.
 
+## Vocabulary
+Kata: is an algorithm you have to solve in any programming language you desire
 
+Kyu: is a digit that determines kata difficulty level as well as the user rank on the platform
 
 
 ## Contributors
