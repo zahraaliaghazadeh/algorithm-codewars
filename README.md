@@ -45,17 +45,18 @@ This repo has some of the most useful algorithms with solutions.
 - [Algorithms solved in many languages](https://github.com/marcosfede/algorithms)
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 - [A JavaScript optimization handbook](https://mythbusters.js.org)
+- [Cracking the Coding Interview, 6th Edition](https://github.com/alxerg/Books-1/blob/master/Cracking%20the%20Coding%20Interview%2C%206th%20Edition%20189%20Programming%20Questions%20and%20Solutions.pdf)
 
 ### Similar Plattforms
 
+- [HackerRank](https://www.hackerrank.com)
+- [LeetCode](https://leetcode.com)
 - [Codility](https://codility.com)
 - [Exercism](http://exercism.io)
 - [CodeEval](https://www.codeeval.com)
-- [LeetCode](https://leetcode.com)
 - [CodeChef](https://www.codechef.com)
 - [CoderByte](https://coderbyte.com)
 - [CodeFights](https://codefights.com)
-- [HackerRank](https://www.hackerrank.com)
 
 
 ## Credits
