@@ -21,3 +21,9 @@ function modifiedSum(a, n) {
 
 console.log(modifiedSum([1, 2, 3], 3)); //30
 console.log(modifiedSum([1, 2], 5)); //30
+
+/*============ DIFFERENT SOLUTION ============
+    function modifiedSum(a, n) {
+        return a.reduce((sum, curr) => sum + curr ** n, 0) - a.reduce((sum, curr) => sum + curr, 0);
+    }
+*/
