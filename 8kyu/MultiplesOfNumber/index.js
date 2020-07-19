@@ -34,14 +34,14 @@ console.log(findMultiples(11, 54), [11, 22, 33, 44])
 
 
 // other solution
-function findMultiples(int,limit){
-    let result = []
+// function findMultiples(int,limit){
+//     let result = []
     
-    for (let i = int; i<=limit ; i+=int)
-      result.push(i)
+//     for (let i = int; i<=limit ; i+=int)
+//       result.push(i)
       
-    return result
-  }
+//     return result
+//   }
 
 
 // other solution
