@@ -26,3 +26,14 @@ function squareDigits(num){
 
 
 // other solution
+// function squareDigits(num){
+//     return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+    
+//   }
+
+
+
+// other solution
+//   function squareDigits(num){
+//     return +num.toString().split('').map(i => i*i).join('');
+//   }
