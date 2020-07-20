@@ -38,6 +38,17 @@ function isIsogram(str){
   }
 
 // other solution
+// function isIsogram(str){
+//   for (let i = 0; i < str.length; i++) {
+//     if (str.match(new RegExp(str[i], "gi")).length > 1) {
+//       return false;
+//     }
+//   }
+  
+//   return true;
+// }
+
+// other solution
 // function isIsogram(str){ 
 //     return !/(\w).*\1/i.test(str)
 //   }
