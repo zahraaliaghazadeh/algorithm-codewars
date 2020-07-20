@@ -40,10 +40,6 @@ function solve(arr){
   console.log(solve([12,12,12]))  // 18 
   console.log(solve([1,23,2]))    // 3
 
-
-// ========other solution=========
-// solve=([a,b,c])=>Math.min(a+b,a+c,b+c,(a+b+c)/2|0)
-
 // ========other solution=========
 // function solve(arr){
 //     arr.sort((a,b) => {
