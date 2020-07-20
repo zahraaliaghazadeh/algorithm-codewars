@@ -21,8 +21,14 @@ function squareDigits(num){
   }
 
 
-  console.log(squareDigits(9119))
-//   , 811181);
+  console.log(squareDigits(9119)); // 811181
+
+// other solution
+// function squareDigits(num){
+//   const numArr = num.toString().split("");
+  
+//   return parseInt(numArr.reduce((numStr, curr) => numStr + curr ** 2, ""))
+// }
 
 
 // other solution
