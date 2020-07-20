@@ -37,3 +37,18 @@ Test.describe("printerError",function() {
         var s="aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz"
         Test.assertEquals(printerError(s), "3/56")
     })})
+
+
+
+    // other solution
+    // function printerError(s) {
+    //     return s.match(/[^a-m]/g).length + "/" + s.length;
+    // }
+
+
+    // other solution
+    // const printerError = s => `${s.replace(/[a-m]/gi, "").length}/${s.length}`;
+
+
+    // other solution
+    // var printerError = s => (s.match(/[n-z]/g) || []).length + '/' + s.length;
