@@ -19,3 +19,37 @@ function descendingOrder(n){
 console.log(descendingOrder(0))            //  0
 console.log(descendingOrder(1))            //  1
 console.log(descendingOrder(123456789))    //  987654321
+
+
+// other solution
+// function descendingOrder(n){
+//     return +(n + '').split('').sort(function(a,b){ return b - a }).join('');
+//   }
+
+
+
+// other solution
+//   function descendingOrder(n){
+//     return parseInt(n.toString().split('').sort().reverse().join(''), 10);
+//   }
+
+
+
+//   other solution
+// function descendingOrder(n) {
+//     return n.digits().sort().reverse().undigits();
+//   }
+  
+//   Number.prototype.digits = function() {
+//     const result = [];
+//     let n = this;
+//     do {
+//       result.unshift(n % 10);
+//       n = Math.floor(n / 10);
+//     } while(n);
+//     return result;
+//   };
+  
+//   Array.prototype.undigits = function() {
+//     return this.reduce((n, d) => n * 10 + d, 0);
+//   };
