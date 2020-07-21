@@ -14,6 +14,32 @@
 // Even-odd disparity      https://www.codewars.com/kata/59c62f1bdcc40560a2000060
 
 
+function capitalize(s){
+    let str1 = "";
+    let str2 = "";
+    for (let i = 0; i < s.length; i++) {
+      if (i % 2 === 0) {
+        str1 += s[i].toUpperCase();
+        str2 += s[i];
+      }
+      else {
+        str2 += s[i].toUpperCase();
+        str1 += s[i];
+      }
+    }
+    return [str1, str2];
+  };
+
+
+   console.log(capitalize("abcdef")),
+//    ['AbCdEf', 'aBcDeF']);
+   console.log(capitalize("codewars"))
+//    ,['CoDeWaRs', 'cOdEwArS']);
+   console.log(capitalize("abracadabra"))
+//    ,['AbRaCaDaBrA', 'aBrAcAdAbRa']);
+   console.log(capitalize("codewarriors"))
+//    ,['CoDeWaRrIoRs', 'cOdEwArRiOrS']);
+    
 
 // ========other solution=======
 // function capitalize(s){
