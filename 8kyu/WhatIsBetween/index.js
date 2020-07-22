@@ -30,17 +30,17 @@ console.log(between(-2, 2))
   
 
 
-
+// other solution
 //   function between(q, q2) {
 //     let a = Array.from({length:(q2-q+1)},(_,i)=>i+q);
 //     return a;
 //   }
 
-
+// other solution
 //   const between = (a, b) => Array.from(new Array(b-a+1), (_, i) => a + i);
 
 
-
+// other solution
 //   function between(a, b) {
 //     return Array(b - a + 1).fill(1).map((_, i) => a + i)
 //   }
