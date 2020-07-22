@@ -7,6 +7,19 @@
 // Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
 
 
+const areaOrPerimeter = function(l , w) {
+    // Return your answer
+    if (l === w )
+    return l * w
+    else 
+      return 2*l + 2*w
+  };
+
+
+console.log(areaOrPerimeter(4 , 4))
+// 16
+console.log(areaOrPerimeter(6 , 10))
+// 32
 
 
 // other solutions
