@@ -7,17 +7,22 @@
 // invert([]) == []
 // You can assume that all values are integers. Do not mutate the input array/list.
 
+function invert(array) {
+    var arr = []
+    for (let i=0;i<array.length; i++){
+      arr.push(array[i] * -1)
+    }
+     return  arr
+  }
 
 
 
-describe("Invert array values", function(){
-    it("Basic Tests", function(){
-      Test.assertDeepEquals(invert([1,2,3,4,5]), [-1,-2,-3,-4,-5]);
-      Test.assertDeepEquals(invert([1,-2,3,-4,5]), [-1,2,-3,4,-5]);
-      Test.assertDeepEquals(invert([]), []);
-      Test.assertDeepEquals(invert([0]), [0]);
-    });
-  });
+      console.log(invert([1,2,3,4,5]), [-1,-2,-3,-4,-5]);
+      console.log(invert([1,-2,3,-4,5]), [-1,2,-3,4,-5]);
+      console.log(invert([]), []);
+      console.log(invert([0]), [0]);
+ 
+ 
 
 
 
