@@ -17,37 +17,44 @@ function invert(array) {
 
 
 
-      console.log(invert([1,2,3,4,5]), [-1,-2,-3,-4,-5]);
-      console.log(invert([1,-2,3,-4,5]), [-1,2,-3,4,-5]);
-      console.log(invert([]), []);
-      console.log(invert([0]), [0]);
+      console.log(invert([1,2,3,4,5]))
+    //   , [-1,-2,-3,-4,-5]);
+      console.log(invert([1,-2,3,-4,5]))
+    //   , [-1,2,-3,4,-5]);
+      console.log(invert([]))
+    //   , []);
+      console.log(invert([0]))
+    //   , [0]);
  
  
 
 
-
-function invert(array) {
-    return array.map( x => x === 0 ? x : -x);
- }
-
-
-
-
- function invert(array) {
-    return array.map(i => 0 - i);
- }
+// other solutions
+// function invert(array) {
+//     return array.map( x => x === 0 ? x : -x);
+//  }
 
 
 
- function invert(array) {
-    var newArr = [];
-    for(var i = 0; i < array.length; i++){
-      newArr.push(-array[i]);
-    }
-     return newArr;
-  }
+// other solutions
+
+//  function invert(array) {
+//     return array.map(i => 0 - i);
+//  }
 
 
-  function invert(array) {
-    return array.map(n => n && -n)
- }
+// other solutions
+
+//  function invert(array) {
+//     var newArr = [];
+//     for(var i = 0; i < array.length; i++){
+//       newArr.push(-array[i]);
+//     }
+//      return newArr;
+//   }
+
+// other solutions
+
+//   function invert(array) {
+//     return array.map(n => n && -n)
+//  }
