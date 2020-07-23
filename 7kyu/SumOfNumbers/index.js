@@ -30,10 +30,8 @@ function getSum( a,b )
 
 
        
-    console.log(getSum(0,-1))
-    // -1
-    console.log(getSum(0,1))
-    // 1
+    console.log(getSum(0,-1)) // -1
+    console.log(getSum(0,1)) // 1
     
 // other solution
     // const GetSum = (a, b) => {
@@ -44,7 +42,16 @@ function getSum( a,b )
 
 
 // other solution
-//       function GetSum(a,b)
+// function GetSum(a,b)
 // {
 //   return (Math.abs(a - b) + 1) * (a+b) / 2;
 // }
+
+// other solution - recursion
+// function GetSum( a,b )
+// {
+//    if (a == b) return a;
+//    else if (a < b) return a + GetSum(a + 1, b);
+//    else return a + GetSum(a - 1, b);
+// }
+
