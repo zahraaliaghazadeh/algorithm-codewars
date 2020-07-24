@@ -11,12 +11,6 @@
 
 
 
-// testData = [0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14];
-// actual = countPositivesSumNegatives(testData);
-// expected = [8, -50];
-
-// Test.expect(actual[0] == expected[0] && actual[1] == expected[1], "Wrong return value.");
-// });
 
 
 function countPositivesSumNegatives(input) {
@@ -37,10 +31,11 @@ function countPositivesSumNegatives(input) {
     return [positive, negative];
 }
 
-    
+console.log(countPositivesSumNegatives([0, 2, 3, 0, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14]))
+// expected = [8, -50];
 
 
 // other solution
-function countPositivesSumNegatives(input) {
-    return input && input.length ? [input.filter(p => p > 0).length, input.filter(n => n < 0).reduce((a, b) => a + b, 0)] : [];
-}
+// function countPositivesSumNegatives(input) {
+//     return input && input.length ? [input.filter(p => p > 0).length, input.filter(n => n < 0).reduce((a, b) => a + b, 0)] : [];
+// }
