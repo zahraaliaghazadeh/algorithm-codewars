@@ -1,15 +1,22 @@
 // 8kyu
+// Write function avg which calculates average of numbers in given list.
+
+function find_average(array) {
+    // your code here
+    var sum = 0
+    for (let i=0 ; i<array.length; i++){
+      sum += array[i]
+    }
+    return sum / array.length;
+  }
 
 
 
 
-
-
-
-
-
-Test.assertEquals(find_average([1,1,1]), 1);
-Test.assertEquals(find_average([1,2,3]), 2);
+console.log(find_average([1,1,1]))
+// 1
+console.log(find_average([1,2,3]))
+// 2
 
 
 
