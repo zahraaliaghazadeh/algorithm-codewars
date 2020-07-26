@@ -31,3 +31,8 @@ describe("Your 'xor' function/operator", _ => {
       Test.assertNotEquals(xor(true, true), true, "'xor' is NOT identical to 'or'");
     });
   });
+
+
+  function xor(a, b) {
+    return a != b;
+  }
