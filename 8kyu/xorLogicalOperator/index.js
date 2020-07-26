@@ -36,3 +36,10 @@ describe("Your 'xor' function/operator", _ => {
   function xor(a, b) {
     return a != b;
   }
+
+  function xor(a, b) {
+    return (a || b) && !(a && b);
+  }
+
+
+  const xor=(a, b)=>a!=b;
