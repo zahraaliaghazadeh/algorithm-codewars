@@ -47,3 +47,13 @@ describe("Your 'xor' function/operator", _ => {
   const xor = (a, b) => !!(a ^ b)
 
   xor=(a,b)=>!!(a^b);
+
+  const xor = (a, b) => a && !b || b && !a;
+
+  xor = (a, b) => { return a==b ? false : true }
+
+  const xor = (a, b) => !a != !b;
+
+  function xor(a, b) {
+    return (a ^ b) === 1
+  }
