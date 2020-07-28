@@ -28,3 +28,11 @@ function gooseFilter (birds) {
       console.log(gooseFilter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]),["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]);
   
       console.log(gooseFilter(["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]),[]);
+
+
+    //   other solution
+    // function gooseFilter (birds) {
+    //     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+    //     return gooseFilter.pop(geese);
+    //     // return an array containing all of the strings in the input array except those that match strings in geese
+    //   };
