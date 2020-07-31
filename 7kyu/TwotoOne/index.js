@@ -43,3 +43,10 @@ function longest(s1, s2) {
 //   .sort()
 //   .filter((x, i, a) => x !== a[i-1])
 //   .join('');
+
+// other solution
+// function longest(s1, s2) {
+//   const uniqueStr = (s1 + s2).replace(/(.)(?=.*\1)/g, "");
+  
+//   return uniqueStr.split("").sort().join("");
+// }
