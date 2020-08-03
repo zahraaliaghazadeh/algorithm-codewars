@@ -52,3 +52,23 @@
 //     }
 //     return res;
 //   }
+
+
+// other solution
+// function fibsFizzBuzz(n) {
+//     const result = [], fibs = fibGen();
+//     let fib;
+//     while (result.length < n) {
+//       fib = fibs.next().value;
+//       result.push(fib % 15 ? fib % 5 ? fib % 3 ? fib : 'Fizz' : 'Buzz' : 'FizzBuzz');
+//     }
+//     return result;
+//   }
+  
+//   function* fibGen() {
+//     let [p, n] = [0, 1];
+//     while (true) {
+//       yield n;
+//       [p, n] = [n, p + n];
+//     }
+//   }
