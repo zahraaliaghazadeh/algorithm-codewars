@@ -86,3 +86,12 @@ console.log(correct("PAR15"),"PARIS");
 //       .map(c => map.hasOwnProperty(c) ? map[c] : c)
 //       .join("");
 //   }
+
+// function correct(string)
+// {
+//   return string.replace(/[501]/g, x => {
+//     if (x === "5") return "S";
+//     if (x === "0") return "O";
+//     if (x === "1") return "I";
+//   })
+// }
