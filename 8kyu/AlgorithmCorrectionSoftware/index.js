@@ -44,6 +44,8 @@ console.log(correct("BUDAPE5T"),"BUDAPEST");
 console.log(correct("PAR15"),"PARIS");
 
 
+
+// other solution
 // correct = s => s.replace(/0/g,'O').replace(/1/g,'I').replace(/5/g,'S')
 
 
