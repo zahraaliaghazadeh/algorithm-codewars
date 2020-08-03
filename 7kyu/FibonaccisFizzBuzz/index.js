@@ -36,12 +36,8 @@
 
 
         console.log(fibsFizzBuzz(2),[ 1, 1 ])
-
-    
         console.log(fibsFizzBuzz(5),[ 1, 1, 2, 'Fizz', 'Buzz' ])
-    
-    
-        Test.assertSimilar(fibsFizzBuzz(20),[1,1,2,"Fizz","Buzz",8,13,"Fizz",34,"Buzz",89,"Fizz",233,377,"Buzz","Fizz",1597,2584,4181,"FizzBuzz"])
+        console.log(fibsFizzBuzz(20),[1,1,2,"Fizz","Buzz",8,13,"Fizz",34,"Buzz",89,"Fizz",233,377,"Buzz","Fizz",1597,2584,4181,"FizzBuzz"])
     
 
 
