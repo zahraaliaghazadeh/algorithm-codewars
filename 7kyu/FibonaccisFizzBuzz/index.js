@@ -32,16 +32,36 @@
 
 // [1,1,2,"Fizz","Buzz",8,13,"Fizz",34,"Buzz",89,"Fizz",233,377,"Buzz","Fizz",1597,2584,4181,"FizzBuzz"]
 
-
-
-
-        console.log(fibsFizzBuzz(2),[ 1, 1 ])
-        console.log(fibsFizzBuzz(5),[ 1, 1, 2, 'Fizz', 'Buzz' ])
-        console.log(fibsFizzBuzz(20),[1,1,2,"Fizz","Buzz",8,13,"Fizz",34,"Buzz",89,"Fizz",233,377,"Buzz","Fizz",1597,2584,4181,"FizzBuzz"])
+var fibsFizzBuzz = function(n) {
+  if (n === 1) {
+    return [1];
+  }
+  
+  let a = 1;
+  let b = 1;
+  const arr = [a, b];
+  
+  for (let i = 2; i < n; i++) {
+    const sum = a + b;
     
+    if (sum % 15 === 0) arr.push("FizzBuzz");
+    else if (sum % 5 === 0) arr.push("Buzz");
+    else if (sum % 3 === 0) arr.push("Fizz");
+    else arr.push(sum);
+    
+    a = b;
+    b = sum;
+  }
+  
+  return arr;
+}
 
 
 
+console.log(fibsFizzBuzz(2)) // returns [ 1, 1 ]
+console.log(fibsFizzBuzz(5)) // returns [ 1, 1, 2, 'Fizz', 'Buzz' ]
+console.log(fibsFizzBuzz(20)) // returns [1, 1, 2, "Fizz", "Buzz", 8, 13, "Fizz", 34, "Buzz", 89, "Fizz", 233, 377, "Buzz", "Fizz", 1597, 2584, 4181, "FizzBuzz"]
+    
 // other solution
 // function fibsFizzBuzz(n) {
 //     let res = [], [a, b] = [0, 1];
@@ -72,3 +92,23 @@
 //       [p, n] = [n, p + n];
 //     }
 //   }
+
+// other solution
+// var fibsFizzBuzz = function(n) {
+//   if (n === 1) {
+//     return [1];
+//   }
+  
+//   const arr = [1, 1];
+  
+//   for (let i = 1; i < n - 1; i++) {
+//     arr.push(arr[arr.length - 1] + arr[arr.length - 2]);
+//   }
+  
+//   return arr.map(num => {
+//     if (num % 15 === 0) return "FizzBuzz";
+//     if (num % 5 === 0) return "Buzz";
+//     if (num % 3 === 0) return "Fizz";
+//     else return num;
+//   }); 
+// }
