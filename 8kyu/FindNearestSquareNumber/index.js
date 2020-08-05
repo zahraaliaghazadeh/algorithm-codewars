@@ -10,7 +10,7 @@ console.log(nearestSq(1));    // returns 1
 console.log(nearestSq(2));    // returns 1
 console.log(nearestSq(10));   // returns 9
 console.log(nearestSq(111));  // returns 121
-console.log(nearestSq(9999))  // returns 10000
+console.log(nearestSq(9999));  // returns 10000
 
 /*======= OTHER SOLUTIONS ========
 function nearestSq(n){
@@ -25,7 +25,7 @@ function nearestSq(n){
 
 ===================================
 function nearestSq(n) {
-  return Math.round(n ** 0.5) ** 2);
+  return Math.round(n ** 0.5) ** 2;
 }
 
 */
