@@ -28,3 +28,7 @@ function reverseWords(str) {
 //   function reverseWords(str) {
 //     return str.split(' ').map( str => str.split('').reverse().join('') ).join(' ');
 //   }
+
+// other solution
+// const reverseWords = str =>
+//   str.replace(/\S+/g, val => [...val].reverse().join(``));
