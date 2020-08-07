@@ -20,3 +20,8 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
     
     return (bottleLength-rimLength) * (radius**2) * 2
   }
+
+
+    console.log(iceBrickVolume(1, 10, 2), 16);
+    console.log(iceBrickVolume(5, 30, 7), 1150);
+  
