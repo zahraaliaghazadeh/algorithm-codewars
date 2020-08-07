@@ -24,3 +24,7 @@ const find= (arr,el)=> arr.includes(el) ? arr.indexOf(el) : "Not found"
       console.log(find(array, Math.PI), 5);
       console.log(find(array, 3.14), "Not found");
       console.log(find(array, 6), 4);
+
+
+// other solution
+ //   const find = (a, x) => (x = a.indexOf(x)) < 0 ? 'Not found' : x
