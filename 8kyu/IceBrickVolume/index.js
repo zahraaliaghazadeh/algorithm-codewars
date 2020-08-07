@@ -14,3 +14,9 @@
 // Examples:
 // iceBrickVolume(1, 10, 2); // => 16
 // iceBrickVolume(5, 30, 7); // => 1150
+
+function iceBrickVolume(radius, bottleLength, rimLength) {
+    // Your code should be here ;)
+    
+    return (bottleLength-rimLength) * (radius**2) * 2
+  }
