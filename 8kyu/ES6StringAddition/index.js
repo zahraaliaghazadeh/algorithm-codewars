@@ -18,3 +18,18 @@ function joinStrings(string1, string2){
  console.log(joinStrings('string1', 'string2'), 'string1 string2');
  console.log(joinStrings('testing', 'testing'), 'testing testing');
  console.log(joinStrings(134, 234), '134 234');
+
+ if (!String.prototype.format) {
+    String.prototype.format = function() {
+      var args = arguments;
+      return this.replace(/{(\d*)}/g, function(match, number) { 
+        return typeof args[number] != 'undefined'
+          ? args[number]
+          : match
+        ;
+      });
+    };
+  }
+  function joinStrings(string1, string2){
+     return "{0} {1}".format(string1, string2)
+  }
