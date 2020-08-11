@@ -72,3 +72,7 @@ console.log(passed([19,16,8,11,25,10,29,22,23]),11);
 // other solutions
 //       var passed = a => (a=a.reduce((a,v) => (v<19 && ++a.d && (a.n+=v), a),{n:0,d:0})).d ?
 //         Math.round(a.n/a.d) : 'No pass scores registered.';
+
+
+// other solution
+// const passed = list => !list.filter(ele => ele <= 18).length ? 'No pass scores registered.' : Math.round(list.filter(ele => ele <= 18).reduce((acc, cv) => acc + cv, 0)/list.filter(ele => ele <= 18).length);
