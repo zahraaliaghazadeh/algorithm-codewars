@@ -32,7 +32,6 @@ function cost (mins) {
   let total = 30;
   
   if (mins > 65) {
-    const halfHours = (mins - 65) % 30;
     total += Math.ceil((mins - 65) / 30) * 10
   }
       
@@ -41,7 +40,7 @@ function cost (mins) {
 
 ================================================
 function cost (mins) { 
-  return Math.ceil(Math.max(0, mins-65) / 30 + 3) * 10;
+  return Math.ceil(Math.max(0, mins - 65) / 30 + 3) * 10;
 } 
 
 */
