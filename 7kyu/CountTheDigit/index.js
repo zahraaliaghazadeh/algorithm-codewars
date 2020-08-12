@@ -14,23 +14,23 @@
 
 function nbDig(n, d) {
     // your code
-  let arr =[]
-  for ( let i = 0 ; i <=n ; i++){
-    arr.push(i**2)
-  }
-  let array = arr.join("")
-  var count = 0
-  for (let j=0 ; j<array.length; j++){
-    if (array[j].includes(d))
-      count ++
-  }
-  return count
+    let arr = []
+    for (let i = 0; i <= n; i++) {
+        arr.push(i ** 2)
+    }
+    let array = arr.join("")
+    var count = 0
+    for (let j = 0; j < array.length; j++) {
+        if (array[j].includes(d))
+            count++
+    }
+    return count
 }
 
-        console.log(nbDig(5750, 0), 4700)
-        console.log(nbDig(11011, 2), 9481)
-        console.log(nbDig(12224, 8), 7733)
-        console.log(nbDig(11549, 1), 11905)
+console.log(nbDig(5750, 0), 4700)
+console.log(nbDig(11011, 2), 9481)
+console.log(nbDig(12224, 8), 7733)
+console.log(nbDig(11549, 1), 11905)
 
 
         // other solution
