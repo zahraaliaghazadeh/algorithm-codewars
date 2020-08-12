@@ -22,6 +22,9 @@ console.log(alternateCase("Hello World"), "hELLO wORLD");
 // other solutions
 // alternateCase = (s) => s.split('').map(x => x === x.toUpperCase() ? x.toLowerCase() : x.toUpperCase()).join('');
 
+// function alternateCase(s) {
+//   return s.replace(/./g, c => c === c.toLowerCase() ? c.toUpperCase() : c.toLowerCase());
+// }
 
 // const alternateCase = s =>
 //   s.replace(/\w/g, val => val[`to${val < `a` ? `Low` : `Upp`}erCase`]());
