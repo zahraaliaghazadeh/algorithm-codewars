@@ -36,6 +36,21 @@ function capitalize(s,arr){
    console.log(capitalize("codewarriors",[5]),'codewArriors');
    console.log(capitalize("indexinglessons",[0]),'Indexinglessons');
   
+// other solution
+// function capitalize(s,arr){
+//   for (let i = 0; i < arr.length && arr[i] < s.length; i++) {
+//     const index = arr[i];
+//     s = s.substring(0, index) + s[index].toUpperCase() + s.substring(index + 1);
+//   }
+  
+//   return s;
+// };
+
+// other solution
+// const capitalize = (string, array) => 
+//   string.replace(/./g, (char, index) =>
+//     array.includes(index) ? char.toUpperCase() : char
+//   );
 
 //    other solution
 // function capitalize(s,arr){
