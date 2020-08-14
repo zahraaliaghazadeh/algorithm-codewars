@@ -28,6 +28,14 @@ console.log(sumDigits(10), 1);
 console.log(sumDigits(99), 18);
 console.log(sumDigits(-32), 5);
 
+// other solution
+// function sumDigits(number) {
+//   const abs = Math.abs(number);
+  
+//   if (abs / 10 < 1) return abs;
+  
+//   return abs % 10 + sumDigits(Math.floor(abs / 10));
+// }
 
 // other solution
 // function sumDigits(number) {
