@@ -82,27 +82,44 @@ const getTurkishNumber = (num) => {
   }
 
 
+  const tests = [
+    [0,  "sıfır"],
+    [16, "on altı"],
+    [70, "yetmiş"],
+    [26, "yirmi altı"],
+  ];
 
-
-//   test
-const chai = require("chai");
-const assert = chai.assert;
-
-const tests = [
-  [0,  "sıfır"],
-  [16, "on altı"],
-  [70, "yetmiş"],
-  [26, "yirmi altı"],
-];
-
-describe("Tests", function() {
   for (const [input, output] of tests) {
-    it(`input: ${JSON.stringify(input)}`, function() {
-      assert.strictEqual(getTurkishNumber(input), output);
-    });
+      console.log(getTurkishNumber(input), output);
   }
-});
 
+
+// other solution
+// const getTurkishNumber = (num) => {
+// 	const turkishNums = {
+//     0: "sıfır",
+//     1: "bir",
+//     2: "iki",
+//     3: "üç",
+//     4: "dört",
+//     5: "beş",
+//     6: "altı",
+//     7: "yedi",
+//     8: "sekiz",
+//     9: "dokuz",
+//     10: "on",
+//     20: "yirmi",
+//     30: "otuz",
+//     40: "kırk",
+//     50: "elli",
+//     60: "altmış",
+//     70: "yetmiş",
+//     80: "seksen",
+//     90: "doksan",
+//   }
+
+//   return num > 10 && num % 10 > 0 ? `${turkishNums[num - num % 10]} ${turkishNums[num % 10]}` : turkishNums[num];
+// }
 
 // other solution
 // let ones = ['sıfır', 'bir', 'iki', 'üç', 'dört', 'beş', 'altı', 'yedi', 'sekiz', 'dokuz']
