@@ -33,3 +33,8 @@ function predictAge(age1,age2,age3,age4,age5,age6,age7,age8){
 
 //  other solution
 // const predictAge = (...ages) => Math.hypot(...ages) / 2 | 0;
+
+// other solution
+// function predictAge(age1,age2,age3,age4,age5,age6,age7,age8){
+//   return Math.floor(Math.sqrt([...arguments].reduce((sum, curr) => sum + curr * curr, 0)) / 2)
+// }
