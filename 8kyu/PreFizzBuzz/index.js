@@ -25,4 +25,10 @@ function preFizz(n) {
     console.log(preFizz(4), [1,2,3,4], `Array should be from 1 to 4`);
     console.log(preFizz(5), [1,2,3,4,5], `Array should be from 1 to 5`);
 
+
+
+    // other solution
     // const preFizz = n => Array.from({length: n}, (_, i) => i + 1)
+
+    // other solution
+    // let preFizz = n => [...Array(n)].map((x, i) => i+1);
